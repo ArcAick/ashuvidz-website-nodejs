@@ -40,13 +40,23 @@
 
 <div class="container-fluid">
     <div class="row embed">
-        <div class="col-xs-0 col-md-2"></div>
-        <div class="col-xs-12 col-md-8">
+        <div class="col-xs-0 col-md-1"></div>
+        <div class="col-xs-12 col-md-10">
             <div class="embed-responsive embed-responsive-16by9">
                 <div id="twitch-embed"></div>
-                <div id="player"></div>
             </div>
         </div>
-        <div class="col-xs-0 col-md-2"></div>
+        <div class="col-xs-0 col-md-1"></div>
     </div>
 </div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
+<script type="text/javascript">
+    new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 250,
+        channel: "ashuvidz",
+        theme: "dark"
+    });
+</script>

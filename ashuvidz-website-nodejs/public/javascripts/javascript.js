@@ -95,7 +95,7 @@ function videoPageGenerator(pageToken) {
     nextToken = playlist.nextPageToken;
 
     $("#videos").append("<div class='row pager'>\
-    </div>")
+    </div>");
     $("#myModal").on("hidden.bs.modal", function () {
       closingVideoPopup();
     });
