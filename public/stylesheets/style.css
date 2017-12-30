@@ -1,0 +1,300 @@
+/* By Gaïel*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div[id*="gw2section"] p, div[id*="gw2section"] li, div[id*="ffxivsection"] p, div[id*="ffxivsection"] li, div[id*="bdosection"] p, div[id*="bdosection"] li {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+div[id*="gw2section"], div[id*="ffxivsection"], div[id*="bdosection"] {
+  min-height: 900px;
+}
+
+div[id*="section"]:first-of-type {
+  min-height: 1000px;
+}
+
+div[id*="section"]:first-of-type>.container {
+  margin-top: 50px;
+}
+
+/*----*/
+
+::selection {
+  background: #F22613; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #F22613; /* Gecko Browsers */
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: #2F2F2F;
+}
+
+.container-fluid .jumbotron {
+  border-radius: 0px;
+}
+
+.jumbotron {
+  background-color: #2b2b2b;
+  color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 15px;
+}
+
+.jumbotron h1, h2, h3 {
+  text-align: center;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
+.progress {
+  height: 30px;
+}
+
+.progress-bar {
+  font-size: 22px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.media-body {
+  padding-top: 8px;
+}
+
+.progress-bar p {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#icon-jumbotron {
+  padding-top: 15px;
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+}
+
+.affix+.container-fluid {
+  padding-top: 70px;
+}
+
+#subnav {
+  margin-bottom: 0px;
+}
+
+.fullwidth {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#section2 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bdo-bg1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bdo-bg1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section2 p {
+  text-align: center;
+}
+
+#section1 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/gw2-bg1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/gw2-bg1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section1 p {
+  text-align: center;
+}
+
+#section3 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/ffxiv-bg1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/ffxiv-bg1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section3 p {
+  text-align: center;
+}
+
+#heroe-home {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-home.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-home.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn{
+  border-radius: 0px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  border-radius: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #202020;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+footer .row {
+  color: white;
+  margin: 0;
+}
+
+footer a:hover {
+  color: grey;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+footer .navbar li a, a:link, a:visited {
+  color: white;
+}
+
+footer .navbar li a:hover, a:active a:focus {
+  color: #323232;
+}
+
+footer .nav>li>a:hover, .nav>li>a:focus {
+  background-color: #323232;
+  text-decoration: none;
+}
+
+body {
+  background-color: #323232;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.embed {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+footer .fa {
+  padding: 10px;
+}
+
+#planning {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#planning h1, h2, h3 {
+  color: white;
+}
+
+#planning img {
+  margin-top: 25px;
+}
+
+#videos{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.thumbnail {
+  border-radius: 0px;
+}
+
+.pager button, .pager button {
+  border-radius: 0px;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 25px;
+  width: 200px;
+}
+
+.pager button, .pager button {
+  background-color: #F9690E;
+  border: 0;
+  font-size: 2em;
+}
+
+.pager button:hover, .pager button {
+  background-color: #F27935;
+  border-color: #F27935;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover{
+  background-color: #F27935;
+  border-color: #F27935;
+}
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+#propos1{
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-home.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-home.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+#propos2, #propos3, #propos4{
+  background-color: #1d1d1d;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.masonry { /* Masonry container */
+  column-count: 3;
+  column-gap: 1em;
+}
+
+.item { /* Masonry bricks or child elements */
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}

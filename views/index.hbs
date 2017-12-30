@@ -1,0 +1,62 @@
+<div class="container-fluid">
+    <header class="row hidden-xs">
+        <div class="jumbotron" id="heroe-home">
+            <h1>Ashuvidz</h1>
+            <h2>Chaine live et vidéo MMO et jeux en ligne</h2>
+            <div class="row" id="icon-jumbotron">
+                <div class="col-sm-12 col-md-12">
+                    <ul class="list-inline center-block text-center">
+                        <li>
+                            <a href="https://www.twitch.tv/ashuvidz/" target="_blank">
+                                <img class="img-responsive center-block" src="images/twitch-logo-small.png" alt="Twitch Logo Small">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/ashuvidz/" target="_blank">
+                                <img class="img-responsive center-block" src="images/youtube-logo-small.png" alt="Youtube Logo Small">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ashuvidz/" target="_blank">
+                                <img class="img-responsive center-block" src="images/facebook-logo-small.png" alt="Facebook Logo Small">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/ashuvidz/" target="_blank">
+                                <img class="img-responsive center-block" src="images/twitter-logo-small.png" alt="Twitter Logo Small">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://discord.gg/0gQfr9vfLYQRf8HU" target="_blank">
+                                <img class="img-responsive center-block" src="images/discord-logo-small.png" alt="Discord Logo Small">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+<div class="container-fluid">
+    <div class="row embed">
+        <div class="col-xs-0 col-md-1"></div>
+        <div class="col-xs-12 col-md-10">
+            <div class="embed-responsive embed-responsive-16by9">
+                <div id="twitch-embed"></div>
+            </div>
+        </div>
+        <div class="col-xs-0 col-md-1"></div>
+    </div>
+</div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
+<script type="text/javascript">
+    new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 250,
+        channel: "ashuvidz",
+        theme: "dark"
+    });
+</script>
